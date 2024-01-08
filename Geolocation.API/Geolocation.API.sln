@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geolocation.API", "Geolocation.API.csproj", "{B778CBAB-C48A-4001-AF9B-762C979C458F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geolocation.API", "Geolocation.API.csproj", "{3CBEE234-C354-4BE7-BA61-37C9832CF486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goeolocation.Tests", "..\Goeolocation.Tests\Goeolocation.Tests.csproj", "{D93C6FFB-A7C0-42F3-A8DB-7609FA5578EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B778CBAB-C48A-4001-AF9B-762C979C458F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B778CBAB-C48A-4001-AF9B-762C979C458F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B778CBAB-C48A-4001-AF9B-762C979C458F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B778CBAB-C48A-4001-AF9B-762C979C458F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBEE234-C354-4BE7-BA61-37C9832CF486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBEE234-C354-4BE7-BA61-37C9832CF486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBEE234-C354-4BE7-BA61-37C9832CF486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBEE234-C354-4BE7-BA61-37C9832CF486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93C6FFB-A7C0-42F3-A8DB-7609FA5578EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93C6FFB-A7C0-42F3-A8DB-7609FA5578EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93C6FFB-A7C0-42F3-A8DB-7609FA5578EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93C6FFB-A7C0-42F3-A8DB-7609FA5578EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {605462B4-372F-43C1-AA48-42273CB40061}
+		SolutionGuid = {EA6544B5-FC8C-419F-B667-AE7FDBE35C89}
 	EndGlobalSection
 EndGlobal

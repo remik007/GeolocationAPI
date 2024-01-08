@@ -20,7 +20,7 @@ namespace Geolocation.API.Services
             _logger = logger;
             _httpClient = httpClient;
             _httpClient.BaseAddress = new Uri(_ipStackSettings.url);
-            _httpClient.Timeout = new TimeSpan(0, 0, 0, 0, _ipStackSettings.timeoutSeconds);
+            _httpClient.Timeout = new TimeSpan(0, 0, _ipStackSettings.timeoutSeconds);
             _httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
         }
         public async Task<LocationDto> GetLocationDetails(string ipAddress)
